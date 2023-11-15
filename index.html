@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Subdomain Takeover POC</title>
+    <link rel="icon" href="https://i.ibb.co/10z9JQx/photo1698935880.jpg" type="image/jpeg">
+    <style>
+        body {
+            background-color: #000000;
+            color: #ffffff;
+            font-family: Arial, sans-serif;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+        }
+
+        /* Animation Keyframes */
+        @keyframes lol {
+            0% {
+                opacity: 0;
+                transform: translate(0);
+            }
+            25% {
+                opacity: 1;
+                transform: translate(-5px, 5px);
+            }
+            50% {
+                opacity: 0;
+                transform: translate(5px, -5px);
+            }
+            75% {
+                opacity: 1;
+                transform: translate(-5px, 5px);
+            }
+            100% {
+                opacity: 1;
+                transform: translate(0);
+            }
+        }
+
+        /* Animation Applied to the Header */
+        header {
+            text-align: center;
+            font-size: 48px;
+            animation: lol 1.9s infinite;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <p>Subdomain Takeover by <a href="https://twitter.com/0xRaskin">0xRaskin</a></p>
+    </header>
+</body>
+
+</html>
